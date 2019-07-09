@@ -1,0 +1,11 @@
+[Unit]
+Description=backend
+
+[Service]
+User=hughfharding
+WorkingDirectory=/home/hughfharding/TeamAPoolProjectBackend
+ExecStart=/usr/bin/node /home/hughfharding/TeamAPoolProjectBackend/Index.js
+
+
+[Install]
+WantedBy=multi-user.target

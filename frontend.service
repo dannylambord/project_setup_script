@@ -1,0 +1,10 @@
+[Unit]
+Description=frontend
+
+[Service]
+User=hughfharding
+WorkingDirectory=/home/hughfharding/TeamAPoolProjectUI
+ExecStart=/usr/local/bin/ng s --host 0.0.0.0 
+
+[Install]
+WantedBy=multi-user.target
