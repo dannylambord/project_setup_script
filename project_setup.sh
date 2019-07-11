@@ -6,7 +6,8 @@ sudo systemctl stop frontend.service
 sudo systemctl stop backend.service
 
 
-sudo apt install -y mongodb nodejs npm git
+sudo apt install -y mongodb npm git
+curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 rm -rf TeamAPoolProject*
