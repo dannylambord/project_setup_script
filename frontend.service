@@ -2,8 +2,8 @@
 Description=frontend
 
 [Service]
-User=hughfharding
-WorkingDirectory=~/TeamAPoolProjectUI
+User=h1
+WorkingDirectory=~/h1/TeamAPoolProjectUI
 ExecStart=/usr/local/bin/ng s --host 0.0.0.0 
 
 [Install]
