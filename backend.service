@@ -3,7 +3,7 @@ Description=backend
 
 [Service]
 User=hughfharding
-WorkingDirectory=~/TeamAPoolProjectBackend
+WorkingDirectory=~/h1/TeamAPoolProjectBackend
 ExecStart=/usr/bin/node ~/h1/TeamAPoolProjectBackend/Index.js
 
 
