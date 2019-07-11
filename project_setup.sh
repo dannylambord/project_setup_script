@@ -7,6 +7,7 @@ sudo systemctl stop backend.service
 
 
 sudo apt install -y mongodb nodejs npm git
+sudo apt-get install -y nodejs
 
 rm -rf TeamAPoolProject*
 
