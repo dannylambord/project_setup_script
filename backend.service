@@ -3,8 +3,8 @@ Description=backend
 
 [Service]
 User=terraform
-WorkingDirectory=~/TeamAPoolProjectBackend
-ExecStart=/usr/bin/node ~/TeamAPoolProjectBackend/Index.js
+WorkingDirectory= /home/terraform/TeamAPoolProjectBackend
+ExecStart=/usr/bin/node Index.js
 
 
 [Install]
