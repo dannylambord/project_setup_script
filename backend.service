@@ -3,7 +3,7 @@ Description=backend
 
 [Service]
 User=terraform
-WorkingDirectory=~/terraform/TeamAPoolProjectBackend
+WorkingDirectory=~/TeamAPoolProjectBackend
 ExecStart=/usr/bin/node ~/TeamAPoolProjectBackend/Index.js
 
 
