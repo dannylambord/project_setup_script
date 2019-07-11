@@ -2,7 +2,7 @@
 Description=backend
 
 [Service]
-User=hughfharding
+User=terraform
 WorkingDirectory=~/terraform/TeamAPoolProjectBackend
 ExecStart=/usr/bin/node ~/terraform/TeamAPoolProjectBackend/Index.js
 
