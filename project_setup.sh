@@ -30,7 +30,7 @@ sudo rm -f /etc/systemd/system/frontend.service
 sudo rm -f /etc/systemd/system/backend.service
 
 sudo cp ~/frontend.service /etc/systemd/system/frontend.service
-sudo cp ~/hughfharding/backend.service /etc/systemd/system/backend.service
+sudo cp ~/backend.service /etc/systemd/system/backend.service
 
 sudo systemctl daemon-reload
 
