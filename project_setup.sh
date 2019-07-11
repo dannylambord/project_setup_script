@@ -29,8 +29,8 @@ sudo npm -g install @angular/cli
 sudo rm -f /etc/systemd/system/frontend.service
 sudo rm -f /etc/systemd/system/backend.service
 
-sudo cp ~/frontend.service /etc/systemd/system/frontend.service
-sudo cp ~/backend.service /etc/systemd/system/backend.service
+sudo cp ~/h1/frontend.service /etc/systemd/system/frontend.service
+sudo cp ~/h1/backend.service /etc/systemd/system/backend.service
 
 sudo systemctl daemon-reload
 
