@@ -3,8 +3,8 @@ Description=backend
 
 [Service]
 User=hughfharding
-WorkingDirectory=/home/hughfharding/TeamAPoolProjectBackend
-ExecStart=/usr/bin/node /home/hughfharding/TeamAPoolProjectBackend/Index.js
+WorkingDirectory=~/TeamAPoolProjectBackend
+ExecStart=/usr/bin/node ~/TeamAPoolProjectBackend/Index.js
 
 
 [Install]
