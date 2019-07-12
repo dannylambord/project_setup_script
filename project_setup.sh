@@ -20,13 +20,13 @@ cd TeamAPoolProjectBackend
 
 git checkout Developer
 
-npm install
+yes | npm install
 
 cd ..
 
-npm install 
+yes | npm install 
 
-sudo npm -g install @angular/cli
+yes | sudo npm -g install @angular/cli
 
 sudo rm -f /etc/systemd/system/frontend.service
 sudo rm -f /etc/systemd/system/backend.service
