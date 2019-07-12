@@ -31,7 +31,5 @@ sudo cp ./project_setup_script/frontend.service /etc/systemd/system/frontend.ser
 
 sudo systemctl daemon-reload
 
-sudo systemctl start mongodb
-
 sudo systemctl start frontend.service
 
