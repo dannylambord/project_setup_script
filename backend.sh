@@ -32,7 +32,7 @@ sudo cp ./project_setup_script/backend.service /etc/systemd/system/backend.servi
 
 sudo systemctl daemon-reload
 
-sudo systemctl start mongodb
+
 
 
 sudo systemctl start backend.service
